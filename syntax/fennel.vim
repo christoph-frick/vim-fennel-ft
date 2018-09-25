@@ -23,7 +23,7 @@ let s:fennel_syntax_keywords = {
     \ , 'fennelFunc': [".","set","set-forcibly!","tset",":","+","..","^","-","*","%","/","//","or","and",">","<",">=","<=","=","==","~=","not","#","require-macros","eval-compiler"]
     \ , 'fennelMacro': ["->","->>"]
     \ , 'fennelRepeat': ["each","while","for"]
-    \ , 'fennelSpecial': ["do","fn","partial","lamda","λ","values","luaexpr","luastatement","assert","type","pairs","ipairs","tostring","tonumber","unpack","setmetatable","getmetatable"]
+    \ , 'fennelSpecial': ["do","fn","partial","lamda","λ","require","values","luaexpr","luastatement","assert","type","pairs","ipairs","tostring","tonumber","unpack","setmetatable","getmetatable"]
     \ }
     " \ , 'fennelVariable': []
     " \ , 'fennelException': []
