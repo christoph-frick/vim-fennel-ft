@@ -26,9 +26,9 @@ setlocal formatoptions-=t
 setlocal comments=n:;
 setlocal commentstring=;\ %s
 
-" Specially indented symbols from clojure.core and clojure.test.
+" Specially indented symbols
 "
-" Clojure symbols are indented in the defn style when they:
+" lispwords are indented in the fn style when they:
 "
 "   * Define vars and anonymous functions
 "   * Create new lexical scopes or scopes with altered environments
