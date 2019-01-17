@@ -19,9 +19,9 @@ let s:fennel_syntax_keywords = {
     \   'fennelBoolean': ["false","true"]
     \ , 'fennelCond': ["if","when"]
     \ , 'fennelConstant': ["nil"]
-    \ , 'fennelDefine': ["defn","def","local","global","var","let"]
-    \ , 'fennelFunc': [".","set","set-forcibly!","tset",":","+","..","^","-","*","%","/","//","or","and",">","<",">=","<=","=","==","~=","not","#","require-macros","eval-compiler"]
-    \ , 'fennelMacro': ["->","->>"]
+    \ , 'fennelDefine': ["def","local","global","var","let"]
+    \ , 'fennelFunc': [".","set","set-forcibly!","tset",":","+","..","^","-","*","%","/","//","or","and",">","<",">=","<=","=","==","~=","not","#","require-macros","macros","eval-compiler","quote"]
+    \ , 'fennelMacro': ["->","->>","-?>","-?>>"]
     \ , 'fennelRepeat': ["each","while","for"]
     \ , 'fennelSpecial': ["do","fn","partial","lamda","λ","require","values","luaexpr","luastatement","assert","type","pairs","ipairs","tostring","tonumber","unpack","setmetatable","getmetatable"]
     \ }
