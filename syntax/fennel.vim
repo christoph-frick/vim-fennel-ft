@@ -17,7 +17,7 @@ endif
 " -*- KEYWORDS -*-
 let s:fennel_syntax_keywords = {
     \   'fennelBoolean': ["false","true"]
-    \ , 'fennelCond': ["if","when"]
+    \ , 'fennelCond': ["if","when","match"]
     \ , 'fennelConstant': ["nil"]
     \ , 'fennelDefine': ["def","local","global","var","let"]
     \ , 'fennelFunc': [".","set","set-forcibly!","tset",":","+","..","^","-","*","%","/","//","or","and",">","<",">=","<=","=","==","~=","not","#","require-macros","macros","eval-compiler","quote"]
