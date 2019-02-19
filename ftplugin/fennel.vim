@@ -39,7 +39,7 @@ setlocal commentstring=;\ %s
 " specially and hence are not indented specially.
 "
 " -*- LISPWORDS -*-
-setlocal lispwords=->,->>,-?>,-?>>,when,partial,lambda,λ,do,fn,global,local,var,let,if,each,while,for,match,doto
+setlocal lispwords=when,partial,lambda,λ,do,fn,global,local,var,let,if,each,while,for,match
 
 " Skip brackets in ignored syntax regions when using the % command
 if exists('loaded_matchit')
