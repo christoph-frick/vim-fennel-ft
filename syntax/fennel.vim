@@ -21,7 +21,7 @@ let s:fennel_syntax_keywords = {
     \ , 'fennelConstant': ["nil"]
     \ , 'fennelDefine': ["def","local","global","var","let"]
     \ , 'fennelFunc': [".","set","set-forcibly!","tset",":","+","..","^","-","*","%","/","//","or","and",">","<",">=","<=","=","==","~=","not","#","require-macros","macros","eval-compiler","quote"]
-    \ , 'fennelMacro': ["->","->>","-?>","-?>>"]
+    \ , 'fennelMacro': ["->","->>","-?>","-?>>","doto"]
     \ , 'fennelRepeat': ["each","while","for"]
     \ , 'fennelSpecial': ["do","fn","partial","lamda","λ","require","values","luaexpr","luastatement","assert","type","pairs","ipairs","tostring","tonumber","unpack","setmetatable","getmetatable"]
     \ }
